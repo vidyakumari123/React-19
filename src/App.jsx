@@ -1,10 +1,16 @@
 import "./App.css";
+import LoginOld from "./components/login";
+import LoginAction from "./components/login-action";
+import LoginReact19 from "./components/login-react-19";
 
 function App() {
   return (
     <div>
-      <h1>React 19 Tutorials</h1>
-      <p>Check the branches in this repo for lesson wise code</p>
+      <LoginOld />
+      <hr />
+      <LoginAction />
+      <hr />
+      <LoginReact19 />
     </div>
   );
 }
